@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getStatus",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "newStatus",
+				"outputs": [
+					{
+						"internalType": "enum Types.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "enum Types.Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "uInteger",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"stateVariables": {
+				"iNumber": {
+					"details": "The integer types can both accept negative values and postive number Default integer type is int256. Number ranges for integer types :  - 2 ^ (number - 1 ) -2^(31-1) = -2,147,483,648 to 2,147,483,647  eg: int8 can accept values from -128 to +127 => -2^(8-1) = -128 to 2^(8-1) 127"
+				},
+				"number": {
+					"details": "Bytes types are only used to store fixed sized arrays of data. The size is specified using the array length keyword eg:bytes32[3] aBytesArray; Can't modified the length of the array after declaration one bytes = 8 bits "
+				},
+				"uInteger": {
+					"details": "uint types can only accept postive number values Default uint type is uint256 Number ranges for uint types : 2 ^ number - 1 eg: uint8: 2^8 - 1 = 256 -1"
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Types.sol": "Types"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Types.sol": {
+			"keccak256": "0x58c7f97f36fe7968178df877fb64b47588c301d012b1d33b7f1f10e51121772b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3365ceb23b17cab3fcedd04b2f6e94e553a64b757d4425285df57bc18fed7296",
+				"dweb:/ipfs/QmYakRWdh4HDndQgJqo3Foxa8H3q7PivsBByLeXXNVttu7"
+			]
+		}
+	},
+	"version": 1
+}
